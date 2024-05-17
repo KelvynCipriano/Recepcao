@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+H2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+body {
+  background-color: #c9c5c5;
+}
