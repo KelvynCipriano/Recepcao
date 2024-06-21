@@ -2,78 +2,101 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title> Formulario do evento </title>
+  <link href="style.css" rel="stylesheet">
+
+
 </head>
 
 <body>
-  <header>
+  <header
 
-    </nav>
+
+      </nav>
+    <img class="logo" src="logo.jpg">
   </header>
 
   <main>
-    <h2> SEU CADASTRO </h2>
-    <label for="nome">
-      <h4>Nome:</h4>
-    </label>
-    <input class="input-padrao" type="text" id="nome" required>
+    <form>
+      <h1> CADASTRO PARA A FEIRA </h1>
+      <h3>Por favor, preencha as informações a seguir:</h3>
+     
+      <label for="nomesobrenome">
+        NOME E SOBRENOME:
+      </label>
+      <input class="input-padrao" type="text" id="nomesobrenome" required>
 
-    <label for="email">
-      <h4>Email:</h4>
-    </label>
-    <input class="input-padrao" type="text" id="email" required>
-
-
-    <label for="telefone">
-      <h4>Telefone:</h4>
-    </label>
-    <input class="input-padrao" type="tel" id="telefone" required>
-
-    <label for="endereco">
-    <h4>Endereço:</h4>
-    </label>
-    <input class="input-padrao" type="text" id="endereco" required>
+      <label for="email">
 
 
-    <label for="curso">
-      <h4>Seu Futuro Curso:</h4>
-    </label>
-    <input class="input-padrao" type="text" id="curso" required>
 
-    <label for="mensagem">
-      <h4>Conte um pouco Sobre Você:</h4>
-    </label>
-    <textarea class="input-padrao" cols="100" rows="10" id="mensagem">
+      <label for="telefone">
+        TELEFONE:
+      </label>
+      <input class="input-padrao" type="tel" id="telefone" required>
+
+      <label for="email">
+        E-MAIL:
+      </label>
+        <input class="input-padrao" type="email" id="email" required >
+
+        <label for="horário de chegada">
+          HORÁRIO DE CHEGADA:
+        </label>
+        <input class="input-padrao" type="time" id="horário de chegada" required>
+
+        <legend>Qual seu gênero?</legend>
+        <select>
+         <option> Masculino </option>
+         <option> Feminino </option>
+         <option> Não-Binário</option>
+         </select>
+
+        <legend>Quem você é?</legend>
+        <select>
+       <option> Pai/Mãe </option>
+       <option>Responsável </option>
+        <option>Visitante </option>      
+        </select>
+         
+      <label for="mensagem">
+        Conte um pouco sobre você:
+      </label>
+      <textarea class="input-padrao" cols="100" rows="10" id="mensagem">
       </textarea>
-    <fildset>
-      <legend>
+      <fildset>
+        <legend>
 
 
 
-    </fildset>
+      </fildset>
 
-    <fildset>
-      <legend>
-      </legend>
+      <fildset>
+        <legend>
+        </legend>
 
-    </fildset>
-
-
+      </fildset>
 
 
 
 
 
-    <label><input type="checkbox" checked>Gostaria de receber outros convites para mais eventos?</label>
 
 
-    <input type="submit" value="ENVIAR O FORMULÁRIO">
+      <label><input type="checkbox" checked>Gostaria de receber outros convites para mais eventos?</label>
+
+
+      <input type="submit" value="ENVIAR O FORMULÁRIO">
 
     </form>
+
+   
+
   </main>
+
+ 
 </body>
 
 </html>

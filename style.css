@@ -1,26 +1,28 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
 ul {
   display: inline-block;
   vertical-align: top;
-  width: 20%;
+  width: 20%;  
 }
 
-.input-padrao {
-  display: block;
-  margin-bottom: 10px;
-  padding: 10px 25px;
-  width: 50%;
-}
+  .input-padrao {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    width: 50%;
+  }
 
-H2 {
+h1 {
   text-align: center;
   margin-bottom: 100px;
+  color: black;
 }
 
-body {
-  background-color: #c9c5c5;
+body{
+  background-color: #00BF63;
+}
+
+.logo{
+  width: 30%;
+  border-radius: 10%;
+  margin-left: 35%;
 }
